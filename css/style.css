@@ -1,6 +1,10 @@
-/* 
+* {
+	box-sizing: border-box;
+}
 
-Style Hints: 
+/*
+
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
