@@ -10,8 +10,6 @@ body{
 }
 h1,h2{
 	text-transform: uppercase;
-	padding:0;
-	margin:0;
 }
 h1{
 	font-size: 50px;
@@ -25,26 +23,40 @@ h2{
 section,header,footer{
 	width:700px;
 	margin:0 auto;
-	background:salmon;
+	background:#F47671;
 }
-header,footer,section p,section h2,section div{
-	padding:10px;
+section #container, header, footer{
+	padding:15px;
 }
 section{
 	background:#f3ebe9;
+}
+section p, section h2{
+	margin: 10px auto;
+}
+section p{
+	padding:5px 0;
 }
 section h2{
 	color:black;
 	text-decoration:underline;
 }
-img{
-	width:100%;
-}
-.small-image{
-	width:25%;
-	border:3px solid gray;
+header{
+	padding-top:10px;
 }
 footer{
 	color:white;
 	text-align:right;
+	padding-bottom:30px;
+	margin-bottom:10px;
+}
+img{
+	width:100%;
+}
+.small-image{
+	width:24.5%;
+	border:3px solid #C7C7C7;
+	padding:1px;
+	margin: 0 0.25%;
+	display: inline-block;
 }
