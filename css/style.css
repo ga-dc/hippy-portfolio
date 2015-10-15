@@ -1,9 +1,14 @@
+html {
+	background-image: url('../images/pattern1.png');
+}
+
 body {
-	background-image: url("../images/pattern1.png");
 	font-family: "Times New Roman", serif;
 	color: black;
 	font-size: 14px;
-} 
+	margin: 0 auto;
+	width: 1000px;
+}
 
 div.whole_page {
 	width: 980px;
