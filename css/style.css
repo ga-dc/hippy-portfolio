@@ -40,11 +40,6 @@ header h2 {
 	text-decoration: none;
 }
 
-div.photos img {
-	border: 5px solid #CACACA;
-	padding: 2px;
-}
-
 div.page {
 	background: #F3EBE9;
 }
@@ -61,6 +56,11 @@ p {
 div.photos_container {
 	padding-bottom: 15px;
 	margin-left: 10px;
+}
+
+div.photos img {
+	border: 5px solid #CACACA;
+	padding: 2px;
 }
 
 div.photos {
