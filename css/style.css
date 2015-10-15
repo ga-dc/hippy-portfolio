@@ -1,19 +1,60 @@
-/* 
+*{
+	box-sizing: border-box;
+}
 
-Style Hints: 
+html{
+  background-image: ("../images/pattern1.png")
+}
 
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
+body{
+	font-size: 14px;
+	font-family: 'Times New Roman', serif;
+	font-color: black;
+	background: #F3EBE9;
+	margin: 0 auto;
+	width: 50%;
+}
 
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
+header, footer{
+	background-color: coral;
+}
 
-H2: Font Size = 18px
+footer{
+	height: 80px;
+}
+#orchids{
+	width: 100%;
+}
+
+.page{
+	background-color: white;
+}
+.4-photos{
+	width: 100%
+}
+
+h1 {
+	font-size: 50px;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  Text-transform: uppercase;
+  color: #FFFFFF;
+	margin: 0
+}
+
+.copyright-footer{
+	text-align: right;
+	padding: 20px;
+	font-size: 18px;
+	color: white;
+}
+h2{
+	font-size: 18px;
 	Text-Transform: uppercase;
 	Font-Family: cursive, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
 
-*/
+p{
+	font-family: Georgia;
+}
