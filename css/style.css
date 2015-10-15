@@ -16,7 +16,7 @@ h1 {
   font-family:  Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   color: #FFFFFF;	(white);
-	padding: 10px 0 0 10px;
+	padding: 10px 0 0 20px;
 
  }
 
@@ -25,12 +25,12 @@ h2 {
 	font-style: italic;
 	text-transform: uppercase;
 	font-family: cursive, Helvetica, sans-serif;
-	padding: 0 0 10px 10px;
+	padding: 0 0 10px 20px;
 
 }
 
 .page {
-	width: 920px;
+	width: 980px;
 	margin: 0 auto;
 	background: #F3EBE9;
 }
@@ -40,7 +40,7 @@ header {
 }
 
 p {
-	padding: 5px 5px 5px 10px;
+	padding: 5px 5px 5px 20px;
 }
 
 .bodyHeader {
@@ -57,11 +57,14 @@ footer {
 }
 
 .photos {
-	margin:0 10px 0 10px;
-	border: 1px solid black;
+	margin:0 10px 20px 10px;
+	text-align: center;
 
 }
 
-.mainPhoto {
-	width: 920px;
+.photos img {
+	margin: 1px;
+	padding: 3px;
+	border: 2px solid grey;
+
 }
