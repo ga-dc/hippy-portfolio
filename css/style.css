@@ -19,7 +19,7 @@ H2: Font Size = 18px
 
 */
 html {
-
+  background-image: url(/Users/brendanlewis/wdi/exercises/hippy-portfolio/images/pattern1.png);
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -28,53 +28,61 @@ html {
 header{
 	background: #FF6967;
 	width: 980px;
-
-}
-body{
-	font-size: 14px;
-	font-family: "Times New Roman", serif;
-	font-color:black;
-	width: 1280px;
-	/*border: 50px solid black;*/
-	border-width: 0 150px 5px 150px;
-	border-image:url(/Users/brendanlewis/wdi/exercises/hippy-portfolio/images/pattern1.png)100 100 round;
-}
-
-h1{
-	font-size: 50px;
-	font-family: Arial,Helvetica,sans-serif;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	padding: 10px 0 0 10px;
-}
-h2{
-	font-size: 18px;
-	text-transform: uppercase;
-	font-family: cursive,Helvetica,sans-serif;
-	text-decoration: underline;
-	padding: 10px 0 10px 0;
-}
-.page{
-	background: white;
-	padding: 20px;
-	width: 980px;
-}
-p{
-	padding: 5px 0 5px 0;
-}
-footer{
-	text-align: right;
-	color: white;
-	background: #FF6967;
-	width: 980px;
-	padding: 10px 10px 40px 0;
-}
-.picture{
-	border: 5px solid lightgrey;
+  text-transform: uppercase;
 }
 div.subhead{
 	font-size: 18px;
 	text-transform: uppercase;
 	font-family: cursive,Helvetica,sans-serif;
 	padding: 0 0 20px 10px;
+}
+body{
+	font-size: 14px;
+	font-family: "Times New Roman", serif;
+	font-color:black;
+  margin: 0 auto;
+	width: 980px;
+  min-height:100%
+}
+
+h1{
+	font-size: 50px;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #FFFFFF;
+	padding: 10px 0 0 10px;
+}
+h2{
+	font-size: 18px;
+	font-family: cursive,Helvetica,sans-serif;
+	text-decoration: underline;
+	padding: 10px 0 10px 10px;
+}
+.page{
+	background: white;
+	width: 100%;
+}
+p{
+	padding: 5px 0 5px 10px;
+}
+footer{
+	text-align: right;
+	color: white;
+	background: #FF6967;
+	width: 100%;
+	padding: 10px 10px 40px 0;
+}
+.imagerow img{
+	border: 5px solid lightgrey;
+  width: 24%;
+}
+
+.imagerow{
+  text-align: center;
+}
+
+img{
+  min-height: 100%
+}
+.hero{
+  width:100%
 }
