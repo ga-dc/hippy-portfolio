@@ -1,6 +1,6 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
@@ -17,3 +17,43 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+header{
+	background: pink;
+}
+body{
+	background: #F3EBE9;
+	color: black;
+	font-family: "Times New Roman";
+}
+h1{
+	font-size: 50px;
+	font-family: Arial;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+h2{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive;
+}
+h3{
+	margin: 10px 0 10px 0;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-family: cursive;
+}
+.page{
+	/*how to put space between p*/
+}
+footer{
+	background: pink;
+	text-align: right;
+
+}
+.photos{
+
+		border: 3px solid grey;
+
+
+}
