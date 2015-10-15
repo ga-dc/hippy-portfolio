@@ -1,19 +1,83 @@
-/* 
+body {
+	font-size: 14px;
+	font-family: "Times New Roman", sans-serif;
+	background-image: url("../images/pattern1.png");
+	max-width: 800px;
+	margin:auto;
+}
 
-Style Hints: 
+.container {
+	background-color: #fff;
+}
+header {
+	background-color: #EF776E;
+	padding: 5px 5px 5px 15px;
+}
 
+header h2 {
+	text-decoration: none;
+}
+
+.page {
+	padding: 15px;
+}
+
+.contained-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-family: cursive, Helvetica, sans-serif;
+	padding-bottom: 15px;
+}
+
+p {
+	padding-bottom: 15px;
+}
+
+.page img {
+	display: inline-block;
+	max-width: 180px;
+	padding:1px;
+	border: 2px solid #E8E8E8;
+	margin: 1px;
+}
+
+/*ul {
+	display: inline-block;
+	vertical-align: top;
+}*/
+
+footer {
+	background-color:#EF776E;
+	color: #fff;
+	text-align: right;
+	padding: 10px 10px 15px 5px;
+}
+
+/* http://en.wikipedia.org/wiki/Sunflower*/
+/*
+Style Hints:
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
 	 Font Color = black
 	 Background: #F3EBE9
-
 H1 Font Size = 50px
    Font Family = Arial, Helvetica, sans-serif
    Text-transform: uppercase;
    color: #FFFFFF;	(White)
-
 H2: Font Size = 18px
 	Text-Transform: uppercase;
 	Font-Family: cursive, Helvetica, sans-serif;
-
 */
