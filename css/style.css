@@ -25,10 +25,9 @@ body {
 }
 
 .page {
-	margin-right: 50px;
-	margin-left: 50px;
 	background-color: #fff;
 	width: 980px;
+	margin: 0 auto;
 }
 
 header {
@@ -64,6 +63,7 @@ main h2 {
 
 .image_display > img {
 	border: 5px solid #CCC;
+	width: 23%;
 }
 
 footer {
