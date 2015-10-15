@@ -1,0 +1,33 @@
+html{
+  background-image:url(../images/pattern1.png); sets the background image to the html, behind the body
+}
+body{
+  background-color:FF6967;
+  margin 0 auto;
+  width 600px; or max-width
+  min-height: 100%;
+}
+img.hero{ //hero is the main image on the pages class
+  width:100%//way to make image resize nicely to the screen
+}
+
+
+html for the image row
+
+<div class="imagerow">
+<img src="images/sunflowers.jpg" alt="Sunflowers"/>
+<img src="images/water.jpg" alt="Water"/>
+<img src="images/purple.jpg" alt="Purple Flower"/>
+<img src="images/trees.jpg" alt="Sunset over Trees"/>
+</div>
+.imagerow img{ //selects img's inside of the div class "imagerow"
+  width: 24%;
+  margin: .5%;//to put a margin around the images and still keep them on the same row, all adds up to 100%
+  border: 3px solid gray;
+  box-sizing: border-box;//includes the 3 extra padding pixels in the 25% width
+  margin: 0 auto; //to center the images
+  display: inline-block;//makes the images inline blocks, to act like text
+}
+.imagerow{//images not on the same row im html(with whitespace) will have whitespace between them
+  font-size: 0;
+}
