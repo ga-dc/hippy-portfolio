@@ -1,19 +1,89 @@
-/* 
-
-Style Hints: 
-
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
-
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
-
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
-
+/*
+HIPPY DIPPY
 */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("../images/pattern1.png");
+
+}
+
+header, footer {
+	background-color:#F47671;
+  padding: 5px;
+}
+
+footer {
+	text-align: right;
+	font-size: 14px;
+  height: 40px;
+	font-family: "Times New Roman", serif;
+}
+
+body {
+	max-width:600px;
+	margin:0 auto;
+	font-size:14px;
+	font-family:'Times New Roman', serif;
+	background-color: #F3EBE9;
+  box-sizing:content-box;
+  min-height:100%;
+}
+
+main {
+  background-color: #ffffff;
+  padding:10px;
+}
+
+p {
+  font-size:14px;
+  font-family:'Times New Roman', serif;
+  font-color: black;
+  padding-bottom:10px;
+}
+
+h1 {
+	   font-size: 50px;
+		 font-family: arial, helvetica, sans-serif;
+		 text-transform: uppercase;
+     color: #FFFFFF;
+}
+
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive, Helvetica, sans-serif;
+  text-decoration: underline;
+  padding-bottom:5px;
+}
+
+h4 {
+  font-size: 14px;
+  font-family: cursive, Helvetica, sans-serif;
+  color: #FFFFFF;
+}
+
+img {
+  width:100%;
+}
+
+
+.imagerow {
+  font-size:0;
+}
+
+.imagerow img{
+    width:24%;
+    margin:2%
+    padding: 3px;
+    border:2px solid #ccc;
+    box-sizing: content-box;
+  }
