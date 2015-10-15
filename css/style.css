@@ -1,11 +1,12 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
 	 Font Color = black
-	 Background: #F3EBE9
+	 Background: #F3EBE9 FF6967
+
 
 H1 Font Size = 50px
    Font Family = Arial, Helvetica, sans-serif
@@ -17,3 +18,63 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+html {
+
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+header{
+	background: #FF6967;
+	width: 980px;
+
+}
+body{
+	font-size: 14px;
+	font-family: "Times New Roman", serif;
+	font-color:black;
+	width: 1280px;
+	/*border: 50px solid black;*/
+	border-width: 0 150px 0 150px;
+	border-image:url(/Users/brendanlewis/wdi/exercises/hippy-portfolio/images/pattern1.png)100 100 round;
+}
+
+h1{
+	font-size: 50px;
+	font-family: Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 10px 0 0 10px;
+}
+h2{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive,Helvetica,sans-serif;
+	text-decoration: underline;
+	padding: 10px 0 10px 0;
+}
+.page{
+	background: white;
+	padding: 20px;
+	width: 980px;
+}
+p{
+	padding: 5px 0 5px 0;
+}
+footer{
+	text-align: right;
+	color: white;
+	background: #FF6967;
+	width: 980px;
+	padding: 10px 10px 40px 0;
+}
+.picture{
+	border: 5px solid lightgrey;
+}
+div.subhead{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive,Helvetica,sans-serif;
+	padding: 0 0 20px 10px;
+}
