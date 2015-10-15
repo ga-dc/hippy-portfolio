@@ -25,14 +25,15 @@ body{
 .page{
 background:white;
 padding-left: 10px;
-
-
+margin: 0;
 }
 
 .centerimage{
 height: auto;
 max-width: 100%;
 background: white;
+display: block; 
+
 
 }
 
@@ -40,7 +41,7 @@ header{
 height: 100px;
 background: #EF786F;
 text-align: left;
-padding: 10px 0 0 0px;
+padding: 10px 0 0 10px;
 }
 h1{
 	font-size: 50px;
@@ -81,9 +82,8 @@ color: white;
 .bottomimage{
 border: 3px solid #CCCCCC;
 display: inline-block;
-margin:auto;
  height: auto;
  width: 152px ;
-
-
+overflow: hidden;
+text-align: center;
 }
