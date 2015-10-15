@@ -1,19 +1,67 @@
-/* 
+html {
+	background:url(file:///Users/Brendan/wdi/homework/hippy-portfolio/images/pattern1.png);
 
-Style Hints: 
+}
 
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
+body {
+	 font-size: 14px;
+	 font-family: "Times New Roman", serif;
+	 color: black;
 
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
 
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
+ }
 
-*/
+h1 {
+  font-size: 50px;
+  font-family:  Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;	(white);
+	padding: 10px 0 0 10px;
+
+ }
+
+h2 {
+	font-size: 18px;
+	font-style: italic;
+	text-transform: uppercase;
+	font-family: cursive, Helvetica, sans-serif;
+	padding: 0 0 10px 10px;
+
+}
+
+.page {
+	width: 920px;
+	margin: 0 auto;
+	background: #F3EBE9;
+}
+
+header {
+	background-color: #EE7871;
+}
+
+p {
+	padding: 5px 5px 5px 10px;
+}
+
+.bodyHeader {
+	text-decoration: underline;
+	padding-top: 10px;
+}
+
+footer {
+	background-color: #EE7871;
+	color: white;
+	text-align: right;
+	height: 35px;
+	padding: 10px;
+}
+
+.photos {
+	margin:0 10px 0 10px;
+	border: 1px solid black;
+
+}
+
+.mainPhoto {
+	width: 920px;
+}
