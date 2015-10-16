@@ -7,12 +7,17 @@ body {
 	color: black;
 	font-size: 14px;
 	margin: 0 auto;
-	width: 1000px;
+	width: 100%;
 }
 
 div.whole_page {
-	width: 980px;
+	width: 75%;
 	margin: 0 auto;
+
+}
+
+img.main_pic {
+	width: 100%;
 }
 
 header {
@@ -38,6 +43,7 @@ h2 {
 
 header h2 {
 	text-decoration: none;
+	/*why is this here*/
 }
 
 div.page {
@@ -46,7 +52,8 @@ div.page {
 
 div.about {
 	margin: 10px;
-	margin-top: px;
+	margin-top: 5px;
+	/*missing px*/
 }
 
 p {
