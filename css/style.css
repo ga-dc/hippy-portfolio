@@ -1,19 +1,73 @@
-/* 
 
-Style Hints: 
 
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
+body {
+	font-size: 14px;
+	font-family: "Times New Roman", serif;
+	color: black;
+	background: #F3EBE9;
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: auto;
+}
 
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
+h1 {
+	font-size: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive, Helvetica, sans-serif;
+	padding-bottom: 5px;
+}
+h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-style: italic;
+	text-decoration: underline;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+div {
+	background-color: white;
+	align-content: center;
 
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
+}
+header {
+	background-color: rgb(238, 165, 117);
+}
+footer {
+	background-color: rgb(238,165,117);
+	text-align: right;
+	padding: 5px;
+}
+#orchids {
+	max-width: 100%;
+	height: auto;
+}
+#pics {
+	max-width: 100%;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: medium;
+	border-color: grey;
+	display: table;
+}
+.image {
+	max-width: 100%;
+	display: table-cell;
+	padding: 5px;
+}
 
-*/
+p {
+	padding: 1px;
+}
+.page {
+	padding: 5px;
+}
