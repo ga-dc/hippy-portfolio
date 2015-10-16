@@ -17,3 +17,10 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+
+body {
+	background-color: BurlyWood;
+}
+
+div{
+margin: 10px 0;
