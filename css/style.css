@@ -17,13 +17,31 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+*{
+	/*align-content: center;
+	box-sizing: border-box;*/
+	/*margin: 0 auto;*/
+}
+.mainPicture img{
+/*margin: 0 auto;*/
+width: 100%;
+}
+header, .page, footer{
+	margin: 0 auto;
+	width: 70%;
+	/*object-fit: fill;*/
+
+}
 header{
 	background: pink;
+
 }
 body{
 	background: #F3EBE9;
 	color: black;
 	font-family: "Times New Roman";
+	/*margin: auto;
+	width: 70%;*/
 }
 h1{
 	font-size: 50px;
@@ -43,12 +61,17 @@ h3{
 	text-decoration: underline;
 	font-family: cursive;
 }
+P{
+	margin:0 0 15px 0;
+}
 .page{
 	/*how to put space between p*/
 }
 footer{
 	background: pink;
 	text-align: right;
+	padding: 10px 0 0 0;
+	height: 30px;
 
 }
 .photos{
