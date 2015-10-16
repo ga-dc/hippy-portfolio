@@ -1,19 +1,83 @@
-/* 
+body {
+		background-image: url("../images/pattern1.png");
+		font-size: 14px;
+		font-color: black;
+}
 
-Style Hints: 
+.page {
+	margin: auto;
+	width: 60%;
+	background-color: white;
+}
+header{
+	padding-bottom: 10px;
+	background-color: orange;
+}
+.main{
+	padding: 10px;
+	background: white;
+}
+.main h2 {
+	text-decoration: underline;
+	padding: 10px;
+}
+h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+}
+h2 {
+	font-size:18px;
+	text-transform: uppercase;
+	font-family: cursive, Helvetica, sans-serif;
+}
+img {
+	max-width:100%;
+}
+
+p {
+	line-height: 1.5rem;
+}
+footer{
+	padding-bottom: 10px;
+	background-color: orange;
+}
+.photos h2 {
+	text-decoration: underline;
+	padding: 10px;
+}
+.photos {
+
+	min-width: 50%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.photos img{
+	display: inline;
+	width:175px;
+  height: auto;
+	padding:2px;
+	border: 1px solid #303030;
+}
+
+footer p{
+	text-align: right;
+	color: white;
+}
+
+/*
+H2: Font Size = 18px
+	Text-Transform: uppercase;
+	Font-Family: cursive, Helvetica, sans-serif;
+
+
+
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
 	 Font Color = black
 	 Background: #F3EBE9
 
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
-
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
 
 */
