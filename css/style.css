@@ -1,6 +1,6 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
@@ -17,3 +17,55 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+html {
+	background-image: url(images/pattern1.png);
+	background-repeat: repeat;
+}
+
+header, footer {
+	width: 720px;
+	background-color: #ff6666;
+}
+
+.hero {
+	width: 720px;
+}
+
+.hero img {
+	width: 720px;
+}
+
+div .main {
+	width: 720px;
+}
+
+h1 {
+	font-family: arial, helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: cursive, helvetica, sans-serif;
+}
+
+p {
+	font-size: 14px;
+	font-family: "Times New Roman", serif;
+	color: black;
+}
+
+.about, .photos {
+	background: #f3ebe9;
+}
+
+ul li {
+	display: inline;
+	text-decoration: none;
+}
+
+ul li img {
+	width: 160px;
+}
