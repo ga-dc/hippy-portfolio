@@ -1,6 +1,6 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
@@ -17,3 +17,40 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+
+body {
+  background-image: url('../images/pattern1.png');
+	font-size:14px
+	font-family:serif
+	font-color:black
+}
+
+.page {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.page .header {
+  background-color: salmon;
+  padding: 15px;
+}
+
+.page .header h1 {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+}
+
+.page .main {
+  padding: 15px;
+}
+
+.page h2 {
+  margin: 10px 0;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.page p {
+  margin: 10px 0;
