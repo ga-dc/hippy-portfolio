@@ -1,6 +1,6 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
@@ -17,3 +17,71 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+
+* {
+	box-sizing: border-box;
+}
+html {
+	background: url('../images/pattern1.png');
+
+}
+body {
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.page {
+	margin: 0 auto;
+	width: 850px;
+}
+
+#header {
+	background-color: salmon;
+}
+
+#header h2 {
+	color: white;
+	font-family: monospace;
+	font-size: 2.75em;
+}
+
+.about p {
+	color: black;
+	font-size: .75em;
+	padding: 25px;
+	letter-spacing: .25em;
+}
+
+img {
+ width: 100%;
+}
+
+
+#photos img {
+	box-sizing: border-box;
+	float: left;
+	width: 25%;
+	border: 2px solid gray;
+}
+
+.page-photos, .page-about {
+	font-size: 2.0em;
+	font-style: italic;
+}
+
+.about {
+	background-color: white;
+}
+
+#links  {
+	text-align: right;
+	background-color: salmon;
+}
+
+#links p {
+	color: white;
+}
+
+a {
+	color: black;
+}
