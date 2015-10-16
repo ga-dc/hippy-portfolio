@@ -1,19 +1,72 @@
-/* 
-
-Style Hints: 
-
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
-
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
-
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
-
-*/
+* {}
+body {
+  background-image: url(file:///Users/rebeccaestes/wdi/exercises/hippy-portfolio/images/pattern1.png);
+}
+#content {
+  font-size: 14px;
+  font-family: "times new roman", serif;
+  color: black;
+  max-width: 600px;
+  margin: 0px auto;
+  background-color: #F3EBE9;
+}
+h1 {
+  font-size: 50px;
+  font-family: "arial", "helvetica", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 10px 0px 10px;
+}
+h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "cursive", "helvetica", sans-serif;
+  padding: 0px 0px 0px 10px;
+}
+h3 {
+  font-family: "cursive", "helvetica", sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  padding: 10px 0px 10px 10px;
+}
+p {
+  text-transform: none;
+  padding: 5px 0px 10px 10px;
+  font-size: 12px;
+  width: 600px;
+}
+#heading {
+  background-color: #FF9999;
+  width: 600px;
+  padding: 5px 20px 60px 0px;
+  height: 95px;
+  box-sizing: border-box;
+}
+#orchids {
+  width: 600px;
+  box-sizing: border-box;
+  margin-top: 12px;
+}
+#below-photo {
+  background-color: #F3EBE9;
+  width: 600px;
+}
+#photos {
+  max-width: 600px;
+}
+.gallery {
+  max-width: 24%;
+  border: solid grey 3px;
+	box-sizing: border-box;
+}
+#copyright {
+  font-size: 10px;
+  text-transform: none;
+  text-align: right;
+  padding-bottom: 30px;
+  background-color: #FF9999;
+  width: 590px;
+}
+#spirit {
+  padding: 10px;
+}
