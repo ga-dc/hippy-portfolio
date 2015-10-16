@@ -1,6 +1,6 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
@@ -17,3 +17,82 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+
+html{
+	background-image: url(../images/pattern1.png);
+	background-repeat: repeat;
+}
+
+header{
+	background: #F27785;
+}
+
+h1{
+	font-size: 39px;
+	font-family: Arial;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding-left: 11px;
+	padding-top: 10px;
+}
+
+#owner{
+	background: #F27785;
+	padding-left: 11px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	text-decoration: none;
+}
+
+#orchids{
+	width: 800px;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+body{
+	background-image: url(../images/pattern1.png);
+	background-color: #F3EBE9;
+	font-size: 11px;
+	font-family: Times;
+	background: #F27785;
+	margin-left: 300px;
+	margin-right: 308px;
+}
+
+p{
+	padding: 5px 0px;
+	line-height: 12px;
+	background: #FFFFFF;
+}
+
+.page{
+	background: #FFFFFF;
+	padding: 15px;
+}
+
+img{
+	background: #FFFFFFF;
+	width: 175px;
+	border: 3px solid #CCCCCC;
+	padding: 1px;
+}
+
+h2{
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-family: cursive;
+	background: #FFFFFF;
+	padding-top: 10px;
+}
+
+footer{
+	background: #F27785;
+	color: #FFFFFF;
+	text-align:right;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 25px;
+}
