@@ -1,19 +1,102 @@
-/* 
-
-Style Hints: 
-
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
-
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
-
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
-
-*/
+html {
+background-image: url(../images/pattern1.png);
+padding-bottom: 5px;
+}
+* {
+	box-sizing: border-box;
+	/*position: center;*/
+}
+header {
+	position: relative;
+	/*display: block;*/
+	text-transform: uppercase;
+	background-color: #EF786F;
+}
+body {
+	font-size: 14px;
+	font-family: 'Times New Roman', serif;
+	color: black;
+	background: #F3EBE9;
+	margin: 0 auto;
+	padding: 0px;
+	max-width: 870px;
+	min-height: 100%;
+}
+footer {
+	background: #FF786F;
+	padding-top: 10px;
+	text-align: right;
+	color: white;
+	padding-bottom: 15px;
+	font-size: 14px;
+	font-family: 'Times New Roman', serif;
+}
+[src='images/orchids.jpg'] {
+	width: 100%;
+	/*padding-bottom: -10px;*/
+}
+h1 {
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	padding-top: 5px;
+}
+h2, h3 {
+	font-size: 18px;
+	font-family: cursive, Helvetica, sans-serif;
+}
+h1,h2 {
+	padding-left: 10px;
+	}
+h3 {
+	text-decoration: underline;
+	/*margin-top: 2px;*/
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	/*padding-top: 15px;*/
+}
+h2 {
+	padding-bottom: 1em;
+}
+.page {
+	padding-top: 10px;
+	padding-left: 10px;
+	/*padding-top: 10px;*/
+}
+p {
+	/*padding-top: 10px;*/
+	padding-bottom: 20px;
+	padding-right: 20px;
+	/*padding-left: 10px;*/
+}
+.pics {
+	display: inline-block;
+	width: 23.5%;
+	border: .2em solid gray;
+	padding: 2px;
+	margin-bottom: 10px;
+}
+/*	[src= 'images/sunflowers.jpg'] {
+	border: .2em solid gray;
+  margin: 2px .2em .2em 10px;
+	padding: 2px;
+	width: 23%;
+}
+[src="images/water.jpg"] {
+	border: .2em solid gray;
+	margin: .2em;
+	padding: 2px;
+	width: 24%;
+}
+[src="images/purple.jpg"] {
+	border: .2em solid gray;
+	margin: .2em;
+	padding: 2px;
+	width: 24%;
+}
+[src="images/ocean.jpg"] {
+	border: .2em solid gray;
+	margin: .2em;
+	padding: 2px;
+	width: 24%;
+}*/
