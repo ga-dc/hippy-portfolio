@@ -2,18 +2,23 @@ body{
 	font-size: 14px;
 	font-family: "Times New Roman", serif;
 	font-color:black;
-	background: #F3EBE9;
+	background: url("../images/pattern1.png");
 	max-width: 850px;
 	margin:auto;
 	}
+
+.page{
+	background-color: white;
+}
 
 img{
 	max-width: 850px;
 }
 
 .pics img{
-	max-width: 203px;
+	max-width: 190px;
 	border: 3px solid #ADA2A2;
+	margin: 5px;
 }
 
 header{
@@ -54,4 +59,8 @@ h2{
 
 .page h2 {
 	text-decoration: underline;
+}
+
+.page-text{
+	margin-left: 20px;
 }
