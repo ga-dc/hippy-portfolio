@@ -1,19 +1,74 @@
-/* 
+*{
+	box-sizing: border-box;
+}
+body{
+		background-image: url('../images/pattern1.png');
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 14px;
+		font-family: "Times New Roman", serif;
+		color: black;
+		background-color: #F32B29;
+}
+header{
+	background-color: salmon;
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+h1{
+	font-size: 50px;
+	font-family: "Arial";
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+header p{
+	text-transform: uppercase;
+	font-family: cursive;
+	padding-bottom: 20px;
+}
+main{
+	width: 600px;
+	font-size: 18px;
+	background-color: white;
+	line-height: 2em;
+	margin: 0 auto;
+	width: 800px;
+}
+#orchids{
+	width: 800px;
+	margin: 0 auto;
 
-Style Hints: 
-
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
-
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
-
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
-
-*/
+}
+h2{
+	text-transform: uppercase;
+	font-family: cursive;
+	text-decoration: underline;
+	font-size: 18px;
+}'
+ul."image_row"{
+	list-style-type: none;
+	vertical-align: middle;
+}
+li {
+	display: inline;
+	vertical-align: middle;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+img{
+	width: 22%;
+	vertical-align: middle;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 30px;
+}
+footer{
+	background-color: salmon;
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: right;
+	color: white;
+}
