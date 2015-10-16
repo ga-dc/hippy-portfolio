@@ -10,6 +10,10 @@ body {
   margin: 0px auto;
   background-color: #F3EBE9;
 }
+
+#info-content {
+	max-width: 590px;
+}
 h1 {
   font-size: 50px;
   font-family: "arial", "helvetica", sans-serif;
@@ -31,9 +35,8 @@ h3 {
 }
 p {
   text-transform: none;
-  padding: 5px 0px 10px 10px;
+	padding: 5px 0px 10px 10px;
   font-size: 12px;
-  width: 600px;
 }
 #heading {
   background-color: #FF9999;
@@ -45,9 +48,9 @@ p {
 #orchids {
   width: 600px;
   box-sizing: border-box;
-  margin-top: 12px;
+  margin-top: 0px;
 }
-#below-photo {
+#main-info {
   background-color: #F3EBE9;
   width: 600px;
 }
