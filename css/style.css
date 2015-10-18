@@ -1,19 +1,129 @@
-/* 
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 
-Style Hints: 
+* {   /* universal selector */
+	box-sizing: border-box;
+}
 
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
+body {
+	background-image: url(../images/pattern1.png);
+	font-family: "Times New Roman", serif;
+	margin-left:6em;
+	margin-right: 1em;
+	padding: 1em;
+	font-family: ;
+	font-size: ;
+}
 
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
+h1 {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	margin-left: .5em; 
+	margin-top: .5em;
+	font-size: 2.8em;	
+}
 
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
+img {
+	display: block;
+	margin-left: 16em;
+	width: 60%;
+}
 
-*/
+h3 {
+	font-family: 'Dancing Script', cursive;
+	text-decoration: underline;
+	font-style: ; 
+	font-family: ;
+	font-size: ;
+	text-align: left;
+	margin-left: 1em;
+	padding: 1em;	
+}
+
+h4 {
+	font-family: 'Dancing Script', cursive;
+	text-decoration: underline;
+	text-align: left;
+	margin-left: 2em; 
+}
+
+h6 {
+	color: #000;
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.2em;
+	margin-top: -3%;
+	margin-left: 3em;
+}
+ 
+ p {
+ 	margin: 1em;
+
+ }
+
+h5 {
+	margin-left: 10em;
+	padding:0;
+}
+
+
+div.row {
+	background: #fff;
+    border: 1.5px solid #aaa;
+    height: 8em;
+    width: 10em;
+    float: left;
+    text-align: center;
+}
+
+div.row img {
+    margin-left: 4em;
+    border: 1px solid #ffffff;
+}
+
+div.row a:hover img {
+    border:2px solid #aaa;
+}
+
+.herowrapp {
+	width: 100%;
+	margin-left: 0em;	
+
+
+}
+
+
+.header {
+  background-color: #FF6562;
+  width: 60%;	
+  height: 9em;
+  margin-left: 16em;
+  padding:.2em; 
+  margin-left: ;
+  margin-right: ;
+  text-align: ;
+}
+
+.about {
+	background-color: #fff;
+	width: 60%;
+	height: 30%;	
+	margin-top: -1.5em;	
+	margin-left: 16em;
+ }
+
+.footer {
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:60%;
+   background:#999;
+   background-color: #FF6562;
+   font-family: cursive, Helvetica, sans-serif;
+   color: #fff;
+   margin-left: 16em;
+   padding: 2em;
+   float: left;
+   text-align: right;	
+}
+
+
