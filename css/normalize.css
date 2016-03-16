@@ -8,6 +8,11 @@
  * Corrects block display not defined in IE6/7/8/9 & FF3
  */
 
+
+
+
+
+
 article,
 aside,
 details,
@@ -65,10 +70,13 @@ audio:not([controls]) {
  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
  */
 
+
 html {
     font-size: 100%; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */
+    margin:0px;
+    padding:0px;
 }
 
 /*
@@ -88,9 +96,87 @@ textarea {
  */
 
 body {
-    margin: 0;
+    top:100px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family:"Times New Roman", serif;
+    color:black;
+    background-image: url("../images/pattern1.png");
+
 }
 
+ #container {
+   background-color: #F3EBE9;
+   top: 0px;
+   margin-top: 0px;
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ #container img{
+   width: 100%;
+   top:0px;
+   margin:0px;
+   padding:0px;
+ }
+
+header {
+  background-color: #EE7871;
+  color: black;
+  top:0px;
+  padding-bottom: 20px;
+
+}
+
+header p{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  margin:0px;
+  padding-left: 10px;
+
+}
+
+header h1{
+  font-size:19px;
+  font-family: Coronetscript, cursive;
+  text-transform: uppercase;
+  margin:0px;
+  padding-left: 10px;
+  margin-top:-12px;
+  /*H2: Font Size = 18px
+  	Text-Transform: uppercase;
+  	Font-Family: cursive, Helvetica, sans-serif;*/
+
+
+}
+
+#main {
+  background-color: #F3EBE9;
+  padding-left: 10px;
+}
+
+div > p{
+  font-size:19px;
+  font-family: Coronetscript, cursive;
+}
+
+footer {
+  background-color: #EE7871;
+  text-align: right;
+  color: white;
+  height: 4em;
+}
+
+#copyright {
+  font-size: 10px;
+  padding-top:10px;
+  padding-right: 20px;
+
+}
 
 /* =============================================================================
    Links
@@ -501,4 +587,4 @@ textarea {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-} 
+}
