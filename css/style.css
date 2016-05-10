@@ -1,19 +1,110 @@
-/* 
+body {
+	text-align: left;;
+	background-color: #cc9900;
+	Body Font Size = 14px;
+	Font Family = "Times New Roman", serif;
+}
 
-Style Hints: 
+.page {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#main{
+	background-color: white;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	/*margin-left: 10px;*/
+
+}
+/*caption{
+	font-style: italic;
+
+
+}*/
+
+img{
+	height: 300px;
+	width: 1000px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+
+h2{
+	text-decoration: underline;
+	font-style: italic;
+	text-align: left;
+	margin-bottom: 10px;
+
+}
+
+h3{
+	text-decoration: underline;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+#top{
+	/*margin-bottom: 25px;*/
+	background-color:#F207B4;
+	padding-left: 10px;
+}
+
+
+footer{
+	text-align: right;
+	background-color: pink;
+	height: 100px;
+	padding-top: 30px;
+	padding-right: 10px;
+	font color: white;
+	color: white;
+}
+p{
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+/*p1{
+	padding-bottom: 666px;
+}*/
+.bottom_images{
+	height:125px;
+	width:230px;
+	margin-left: 0.5px;
+	margin-right: 0.5px;
+	padding: 1px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 4px;
+	margin-bottom: 25px;
+}
+
+
+/*Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
 	 Font Color = black
 	 Background: #F3EBE9
 
-H1 Font Size = 50px
+/*H1 Font Size = 50px
    Font Family = Arial, Helvetica, sans-serif
    Text-transform: uppercase;
-   color: #FFFFFF;	(White)
+   color: #FFFFFF;	(White)*/
 
-H2: Font Size = 18px
+/*H2: Font Size = 18px
 	Text-Transform: uppercase;
 	Font-Family: cursive, Helvetica, sans-serif;
 
-*/
+/**/*/*/
